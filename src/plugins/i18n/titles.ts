@@ -43,4 +43,12 @@ export default {
     en: 'Merchandise Manager',
     fr: 'Responsable Marchandise',
   },
+  title_chef_technology: {
+    en: 'Technology Manager',
+    fr: 'Responsable du département Technologie',
+  },
+  title_member: {
+    en: 'Member',
+    fr: 'Membre',
+  },
 };
