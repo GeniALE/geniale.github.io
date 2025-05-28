@@ -65,6 +65,12 @@ export const teams: Team[] = [
         link: 'https://www.linkedin.com/in/aime1melancon/',
         title: 'title_member',
       },
+      {
+        name: 'Denis Turk',
+        program: 'engineering_software',
+        link: 'https://www.linkedin.com/in/denisturk/',
+        title: 'title_member',
+      },
     ],
   },
 ];
