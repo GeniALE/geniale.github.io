@@ -29,7 +29,7 @@ export default {
   },
   title_social_manager: {
     en: 'Social Manager',
-    fr: 'Responsable Social',
+    fr: 'Responsable du département de communication',
   },
   title_event_manager: {
     en: 'Event Manager',
@@ -46,6 +46,10 @@ export default {
   title_chef_technology: {
     en: 'Technology Manager',
     fr: 'Responsable du département Technologie',
+  },
+  title_chef_production: {
+    en: 'Production Manager',
+    fr: 'Responsable de la Production',
   },
   title_member: {
     en: 'Member',

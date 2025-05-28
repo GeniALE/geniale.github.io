@@ -25,17 +25,42 @@ export const teams: Team[] = [
         title: 'title_captain',
       },
       {
+        name: 'Goulven Derrien',
+        program: 'engineering_electrical',
+        link: 'https://www.linkedin.com/in/goulven-derrien-2b0a1a1b6/',
+        title: 'title_co_captain',
+      },
+      {
+        name: 'Erwan Derrien',
+        program: 'engineering_software',
+        link: 'https://www.linkedin.com/in/erwan-derrien-396607210/',
+        title: 'title_social_manager',
+      },
+      {
         name: 'Jimmy Allard',
         program: 'engineering_software',
         link: 'https://www.linkedin.com/in/jimmy-allard-505613235/',
         title: 'title_chef_technology',
+      },
+      {
+        name: 'Elliott Gillespie',
+        program: 'engineering_gpa',
+        link: 'https://www.linkedin.com/in/elliott-gillespie-5b476b236/',
+        title: 'title_chef_production',
       },
     ],
   },
   {
     title: 'team_production_title',
     description: 'team_production_description',
-    members: [],
+    members: [
+      {
+        name: 'Elliott Gillespie',
+        program: 'engineering_gpa',
+        link: 'https://www.linkedin.com/in/elliott-gillespie-5b476b236/',
+        title: 'title_chef_production',
+      },
+    ],
   },
   {
     title: 'team_technology_title',
