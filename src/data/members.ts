@@ -24,6 +24,12 @@ export const teams: Team[] = [
         link: 'https://www.linkedin.com/in/samuel-bolduc-a56872209/',
         title: 'title_captain',
       },
+      {
+        name: 'Jimmy Allard',
+        program: 'engineering_software',
+        link: 'https://www.linkedin.com/in/jimmy-allard-505613235/',
+        title: 'title_chef_technology',
+      }
     ],
   },
   {
@@ -34,6 +40,37 @@ export const teams: Team[] = [
   {
     title: 'team_technology_title',
     description: 'team_technology_description',
-    members: [],
+    members: [
+      {
+        name: 'Jimmy Allard',
+        program: 'engineering_software',
+        link: 'https://www.linkedin.com/in/jimmy-allard-505613235/',
+        title: 'title_chef_technology',
+      },
+      {
+        name: 'Justin Fiset',
+        program: 'engineering_software',
+        link: 'https://www.linkedin.com/in/justinfiset/',
+        title: 'title_member',
+      },
+      {
+        name: 'Rémi Cloutier',
+        program: 'engineering_software',
+        link: 'https://www.linkedin.com/in/remi-cloutier/',
+        title: 'title_member',
+      },
+      {
+        name: 'Aimé Melançon',
+        program: 'engineering_software',
+        link: 'https://www.linkedin.com/in/aime1melancon/',
+        title: 'title_member',
+      },
+      {
+        name: 'Denis Turk',
+        program: 'engineering_software',
+        link: 'https://www.linkedin.com/in/denisturk/',
+        title: 'title_member',
+      },
+    ],
   },
 ];
