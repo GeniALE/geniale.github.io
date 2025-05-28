@@ -4,7 +4,15 @@
     "esbenp.prettier-vscode",
     "stylelint.vscode-stylelint",
     "Vue.volar",
-    "Vue.vscode-typescript-vue-plugin"
+    "formulahendry.auto-rename-tag",
+    "mhutchie.git-graph",
+    "VisualStudioExptTeam.vscodeintellicode",
+    "xabikos.JavaScriptSnippets",
+    "ms-vscode.vscode-typescript-next",
+    "renathossain.markdown-runner",
+    "christian-kohler.npm-intellisense",
+    "vuetifyjs.vuetify-vscode",
+    "ms-vscode.vscode-typescript-next"
   ],
   "unwantedRecommendations": [
     "octref.vetur"
