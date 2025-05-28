@@ -34,7 +34,9 @@ import { teams } from '@geniale/data/members';
               :img="member.img ?? defaultAvatar"
               :program="$t(member.program)"
               :title="
-                member.title == undefined ? $t('team_member') : $t(member.title)
+                member.title == undefined
+                  ? $t('title_member')
+                  : $t(member.title)
               "
               :link="member.link"
             />
