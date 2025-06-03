@@ -20,7 +20,7 @@ export default {
     en: 'ingredients',
   },
   local: {
-    fr: 'locals',
+    fr: 'locaux',
     en: 'Local',
   },
   ingredients_content: {
