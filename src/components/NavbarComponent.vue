@@ -60,7 +60,7 @@ const onLocaleChange = (event: Event) => {
 <template>
   <nav
     id="navbar"
-    class="fixed w-full top-0 z-50 shadow bg-white animate-fade animate-duration-150"
+    class="fixed w-full top-0 z-50 shadow bg-red-300 animate-fade animate-duration-150"
   >
     <div class="container px-4 py-3 mx-auto">
       <div class="md:flex justify-between items-center">
