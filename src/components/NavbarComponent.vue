@@ -1,6 +1,6 @@
 <script setup lang="ts">
 import { onBeforeMount, onMounted, ref } from 'vue';
-import logo from '@geniale/assets/media/logo_flag.svg';
+import logo from '@geniale/assets/media/logo_flag2.svg';
 
 const isOpen = ref(false);
 
@@ -60,7 +60,7 @@ const onLocaleChange = (event: Event) => {
 <template>
   <nav
     id="navbar"
-    class="fixed w-full top-0 z-50 shadow bg-red-300 animate-fade animate-duration-150"
+    class="fixed w-full top-0 z-50 shadow bg-[rgba(173,31,49,255)] animate-fade animate-duration-150"
   >
     <div class="container px-4 py-3 mx-auto">
       <div class="md:flex justify-between items-center">
@@ -92,8 +92,8 @@ const onLocaleChange = (event: Event) => {
             v-for="item in navbarItems"
             :key="item.name"
             :href="item.link"
-            class="block md:inline-block px-2 py-1 text-gray-800 hover:text-primary-700 md:px-4 md:py-2 md:text-lg"
-            :class="item.selected ? 'text-primary-700' : ''"
+            class="block md:inline-block px-2 py-1 text-white hover:text-primary-700 hover:text-gray-500 md:px-4 md:py-2 md:text-lg"
+            :class="item.selected ? 'text-primary-700 text-stone-950' : ''"
             :target="item.target"
           >
             {{ $t(item.name) }}
