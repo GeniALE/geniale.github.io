@@ -21,11 +21,11 @@ const routes: RouteRecordRaw[] = [
     },
   },
   {
-    path: '/merchandise',
-    name: 'merchandise',
-    component: () => import('./MerchView.vue'),
+    path: '/products',
+    name: 'products',
+    component: () => import('./ProductView.vue'),
     meta: {
-      title: i18n.global.t('page_merchandise'),
+      title: i18n.global.t('page_products'),
     },
   },
 ];

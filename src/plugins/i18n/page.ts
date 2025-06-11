@@ -19,8 +19,8 @@ export default {
     en: 'Language',
     fr: 'Langue',
   },
-  page_merch: {
-    en: 'Merchandise',
-    fr: 'Marchandises',
+  page_products: {
+    en: 'Our Products',
+    fr: 'Nos produits',
   },
 };

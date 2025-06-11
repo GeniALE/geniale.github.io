@@ -22,8 +22,8 @@ const navbarItems = [
     selected: false,
   },
   {
-    name: 'page_merch',
-    link: '/merchandise',
+    name: 'page_products',
+    link: '/products',
     selected: false,
   },
 ];
