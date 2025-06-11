@@ -86,6 +86,11 @@ export const teams: Team[] = [
         program: 'engineering_software',
         link: 'https://www.linkedin.com/in/denisturk/',
       },
+      {
+        name: 'Vincent Moreau-Benoit',
+        program: 'engineering_electrical',
+        link: ' https://www.linkedin.com/in/moreau-benoit-vincent',
+      },
     ],
   },
 ];
