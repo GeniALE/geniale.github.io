@@ -21,11 +21,6 @@ const navbarItems = [
     target: '_blank',
     selected: false,
   },
-  {
-    name: 'page_merch',
-    link: '/merchandise',
-    selected: false,
-  },
 ];
 
 // Hide navbar until scroll
