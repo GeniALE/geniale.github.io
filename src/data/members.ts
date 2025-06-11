@@ -19,9 +19,9 @@ export const teams: Team[] = [
     description: 'team_administration_description',
     members: [
       {
-        name: 'Samuel Bolduc',
-        program: 'engineering_construction',
-        link: 'https://www.linkedin.com/in/samuel-bolduc-a56872209/',
+        name: 'Erwan Derrien',
+        program: 'engineering_software',
+        link: 'https://www.linkedin.com/in/erwan-derrien-396607210/',
         title: 'title_captain',
       },
       {
@@ -29,12 +29,6 @@ export const teams: Team[] = [
         program: 'engineering_electrical',
         link: 'https://www.linkedin.com/in/goulven-derrien-2b0a1a1b6/',
         title: 'title_co_captain',
-      },
-      {
-        name: 'Erwan Derrien',
-        program: 'engineering_software',
-        link: 'https://www.linkedin.com/in/erwan-derrien-396607210/',
-        title: 'title_social_manager',
       },
       {
         name: 'Jimmy Allard',
