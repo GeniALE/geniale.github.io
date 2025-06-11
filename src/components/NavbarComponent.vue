@@ -92,8 +92,8 @@ const onLocaleChange = (event: Event) => {
             v-for="item in navbarItems"
             :key="item.name"
             :href="item.link"
-            class="block md:inline-block px-2 py-1 text-white hover:text-primary-700 hover:text-gray-500 md:px-4 md:py-2 md:text-lg"
-            :class="item.selected ? 'text-primary-700 text-stone-950' : ''"
+            class="block md:inline-block px-2 py-1 text-white hover:text-gray-500 md:px-4 md:py-2 md:text-lg"
+            :class="item.selected ? '!text-stone-950' : ''"
             :target="item.target"
           >
             {{ $t(item.name) }}
