@@ -2,7 +2,7 @@
 import { ref, onMounted } from 'vue';
 import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 import { faEnvelope, faLocationDot } from '@fortawesome/free-solid-svg-icons';
-import logo from '@geniale/assets/media/logo_flag.svg';
+import logo from '@geniale/assets/media/logo_flag2.svg';
 import {
   faGithub,
   faLinkedin,
