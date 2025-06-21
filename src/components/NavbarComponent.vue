@@ -67,7 +67,7 @@ const onLocaleChange = (event: Event) => {
           <div class="md:hidden flex items-center">
             <button
               type="button"
-              class="text-gray-500 hover:text-primary-700 focus:text-gray-600 focus:outline-none"
+              class="text-white hover:text-primary-300 focus:text-gray-600 focus:outline-none"
               @click="isOpen = !isOpen"
             >
               <svg viewBox="0 0 24 24" class="h-6 w-6 fill-current">
