@@ -1,11 +1,13 @@
 <script setup lang="ts">
 import ProductItemComponent from '@geniale/components/ProductItemComponent.vue';
+import { products } from '@geniale/data/products';
 </script>
-
-<template v-for="product in products">
-  <ProductItemComponent
-    :name="products.name"
-    :img="products.img"
-    :description="products.description"
-  />
+<template>
+  <template v-for="(product, key) in products" :key="key">
+    <ProductItemComponent
+      :name="product.name"
+      :img="product.img"
+      :description="product.description"
+    />
+  </template>
 </template>
