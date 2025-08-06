@@ -1,6 +1,9 @@
 <script setup lang="ts">
-import { onBeforeMount, onMounted, ref } from 'vue';
+import { onBeforeMount, ref } from 'vue';
 import logo from '@geniale/assets/media/logo_flag2.svg';
+import i18n from '@geniale/plugins/i18n';
+import { faEarthAmerica } from '@fortawesome/free-solid-svg-icons';
+import { FontAwesomeIcon } from '@fortawesome/vue-fontawesome';
 
 const isOpen = ref(false);
 
@@ -33,23 +36,44 @@ onBeforeMount(() => {
   }
 });
 
-onMounted(() => {
-  if (window.location.pathname === '/dashboard') {
-    const navbar = document.getElementById('navbar');
-    if (navbar) {
-      navbar.classList.remove('bg-white');
-      navbar.classList.add('hidden');
+const languages = [
+  {
+    name: 'EN',
+    code: 'en',
+  },
+  {
+    name: 'FR',
+    code: 'fr',
+  },
+];
+
+let langIndex = languages.findIndex(
+  lang => lang.code === i18n.global.locale.value
+);
+
+// Hide navbar until scroll
+onBeforeMount(() => {
+  // Check which page we are on
+  for (const item of navbarItems) {
+    if (window.location.pathname === item.link) {
+      item.selected = true;
     }
   }
 });
 
 // Set locale on select change
-const onLocaleChange = (event: Event) => {
-  window.localStorage.setItem(
-    'locale',
-    (event.target as HTMLSelectElement).value
-  );
+const onLocaleChange = () => {
+  langIndex = (langIndex + 1) % languages.length;
+  changeLanguage(languages[langIndex].code);
 };
+
+/**
+ *
+ */
+function changeLanguage(newLang: string) {
+  window.localStorage.setItem('locale', newLang);
+  i18n.global.locale.value = newLang as typeof i18n.global.locale.value;
+}
 </script>
 
 <template>
@@ -93,16 +117,16 @@ const onLocaleChange = (event: Event) => {
           >
             {{ $t(item.name) }}
           </a>
-          <select
-            v-model="$i18n.locale"
+
+          <button
             :aria-label="$t('language')"
             type="button"
-            class="text-gray-500 hover:text-primary-700 focus:text-gray-600 focus:outline-none pr-2 border-none"
-            @change="onLocaleChange"
+            class="block md:inline-block px-2 py-1 text-white hover:text-gray-500 md:px-4 md:py-2 md:text-lg"
+            @click="onLocaleChange"
           >
-            <option value="en">EN</option>
-            <option value="fr">FR</option>
-          </select>
+            <FontAwesomeIcon :icon="faEarthAmerica" class="w-6" />
+            {{ languages[langIndex].name }}
+          </button>
         </div>
       </div>
     </div>

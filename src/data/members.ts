@@ -54,6 +54,11 @@ export const teams: Team[] = [
         link: 'https://www.linkedin.com/in/elliott-gillespie-5b476b236/',
         title: 'title_chef_production',
       },
+      {
+        name: 'Félix Lachance',
+        program: 'engineering_gpa',
+        link: 'https://www.linkedin.com/in/félix-lachance-72871b32a',
+      },
     ],
   },
   {
