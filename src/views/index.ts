@@ -20,6 +20,14 @@ const routes: RouteRecordRaw[] = [
       title: i18n.global.t('page_members'),
     },
   },
+  {
+    path: '/products',
+    name: 'products',
+    component: () => import('./ProductView.vue'),
+    meta: {
+      title: i18n.global.t('page_products'),
+    },
+  },
 ];
 
 export { routes };

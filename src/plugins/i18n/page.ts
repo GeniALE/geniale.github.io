@@ -19,4 +19,8 @@ export default {
     en: 'Language',
     fr: 'Langue',
   },
+  page_products: {
+    en: 'Our Products',
+    fr: 'Nos produits',
+  },
 };
