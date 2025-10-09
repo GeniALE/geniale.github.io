@@ -27,4 +27,12 @@ export default {
     en: 'Master in Software Engineering',
     fr: 'Maîtrise en Génie Logiciel',
   },
+  gti_master: {
+    en: 'Master of Information Technology Engineering',
+    fr: "Maitrise en génie des technologies de l'information",
+  },
+  master: {
+    en: 'Master',
+    fr: 'Maitrise',
+  },
 };

@@ -27,4 +27,12 @@ export default {
     en: 'Technology team of the club',
     fr: 'Équipe technologique du club',
   },
+  team_communication_title: {
+    en: 'communication',
+    fr: 'Communication',
+  },
+  team_communication_description: {
+    en: 'Communication team of the club',
+    fr: 'Équipe de communication du club',
+  },
 };

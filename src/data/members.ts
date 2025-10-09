@@ -67,7 +67,7 @@ export const teams: Team[] = [
     members: [
       {
         name: 'Jimmy Allard',
-        program: 'engineering_software',
+        program: 'engineering_electrical',
         link: 'https://www.linkedin.com/in/jimmy-allard-505613235/',
         title: 'title_chef_technology',
       },
@@ -95,6 +95,47 @@ export const teams: Team[] = [
         name: 'Vincent Moreau-Benoit',
         program: 'engineering_electrical',
         link: ' https://www.linkedin.com/in/moreau-benoit-vincent',
+      },
+      {
+        name: 'Émile Gosselin',
+        program: 'engineering_mechanical',
+        link: 'https://www.linkedin.com',
+      },
+      {
+        name: 'Trevys Fiorito Thériault',
+        program: 'engineering_gpa',
+        link: 'https://www.linkedin.com',
+      },
+      {
+        name: 'Marc-Olivier Jetté',
+        program: 'engineering_mechanical',
+        link: 'https://www.linkedin.com',
+      },
+      {
+        name: 'Xavier Drouin',
+        program: 'engineering_gpa',
+        link: 'https://www.linkedin.com',
+      },
+      {
+        name: 'Baptiste Rouanet',
+        program: 'master',
+        link: 'https://www.linkedin.com',
+      },
+      {
+        name: 'Bomba Romain',
+        program: 'gti_master',
+        link: 'https://www.linkedin.com',
+      },
+    ],
+  },
+  {
+    title: 'team_communication_title',
+    description: 'team_communication_description',
+    members: [
+      {
+        name: 'Samuel Lipsteinas',
+        program: 'engineering_gpa',
+        link: 'https://www.linkedin.com',
       },
     ],
   },
