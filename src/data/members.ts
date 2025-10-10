@@ -132,7 +132,7 @@ export const teams: Team[] = [
         name: 'Bastien Lett',
         program: 'master_aero',
         link: 'https://www.linkedin.com',
-      }
+      },
     ],
   },
   {
