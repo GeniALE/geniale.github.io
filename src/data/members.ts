@@ -136,7 +136,7 @@ export const teams: Team[] = [
     members: [
       {
         name: 'Samuel Lipsteinas',
-        program: 'engineering_gpa',
+        program: 'engineering_software',
         link: 'https://www.linkedin.com',
       },
     ],
