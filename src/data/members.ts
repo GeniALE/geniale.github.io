@@ -58,6 +58,7 @@ export const teams: Team[] = [
         name: 'Félix Lachance',
         program: 'engineering_gpa',
         link: 'https://www.linkedin.com/in/félix-lachance-72871b32a',
+        img: 'https://github.com/GeniALE/geniale.github.io/blob/master/src/data/imgMembers/Felix_Lachance.jpg',
       },
     ],
   },
