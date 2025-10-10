@@ -105,8 +105,8 @@ export const teams: Team[] = [
       },
       {
         name: 'Trevys Fiorito Thériault',
-        program: 'engineering_gpa',
-        link: 'https://www.linkedin.com',
+        program: 'engineering_software',
+        link: 'https://ca.linkedin.com/in/trévys-fiorito-thériault-569a13230',
       },
       {
         name: 'Marc-Olivier Jetté',
@@ -128,6 +128,11 @@ export const teams: Team[] = [
         program: 'gti_master',
         link: 'https://www.linkedin.com',
       },
+      {
+        name: 'Bastien Lett',
+        program: 'master_aero',
+        link: 'https://www.linkedin.com',
+      }
     ],
   },
   {

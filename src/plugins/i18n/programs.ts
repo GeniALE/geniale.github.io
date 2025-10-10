@@ -35,4 +35,8 @@ export default {
     en: 'Master',
     fr: 'Maitrise',
   },
+  master_aero: {
+    en: 'Master of Aerospace',
+    fr: 'Maitrise en Aérospatial',
+  },
 };
