@@ -1,5 +1,13 @@
 // Members pictures
 import FelixLachance from '@geniale/data/images/Felix_Lachance.jpg';
+import elliottGillespie from '@geniale/data/images/elliott_gillespie.jpg';
+import erwanDerrien from '@geniale/data/images/erwan_derrien.jpg';
+import xavierDrouin from '@geniale/data/images/xavier_drouin.jpg';
+import remiCloutier from '@geniale/data/images/remi_cloutier.jpg';
+import goulvenDerrien from '@geniale/data/images/goulven_derrien.jpg';
+import victorDesilet from '@geniale/data/images/victor_desilet.jpg';
+import felixNadeau from '@geniale/data/images/felix_nadeau.jpg';
+
 export interface Member {
   name: string;
   program: string;
@@ -20,15 +28,16 @@ export const teams: Team[] = [
     description: 'team_administration_description',
     members: [
       {
-        name: 'Erwan Derrien',
-        program: 'engineering_software',
-        link: 'https://www.linkedin.com/in/erwan-derrien-396607210/',
-        title: 'title_captain',
-      },
-      {
         name: 'Goulven Derrien',
         program: 'engineering_electrical',
         link: 'https://www.linkedin.com/in/goulven-derrien-2b0a1a1b6/',
+        title: 'title_captain',
+        img: goulvenDerrien,
+      },
+      {
+        name: 'Vincent Moreau-Benoit',
+        program: 'engineering_electrical',
+        link: ' https://www.linkedin.com/in/moreau-benoit-vincent',
         title: 'title_co_captain',
       },
       {
@@ -41,7 +50,15 @@ export const teams: Team[] = [
         name: 'Elliott Gillespie',
         program: 'engineering_gpa',
         link: 'https://www.linkedin.com/in/elliott-gillespie-5b476b236/',
+        img: elliottGillespie,
         title: 'title_chef_production',
+      },
+      {
+        name: 'Erwan Derrien',
+        program: 'engineering_software',
+        link: 'https://www.linkedin.com/in/erwan-derrien-396607210/',
+        title: 'title_chef_communication',
+        img: erwanDerrien,
       },
     ],
   },
@@ -54,6 +71,7 @@ export const teams: Team[] = [
         program: 'engineering_gpa',
         link: 'https://www.linkedin.com/in/elliott-gillespie-5b476b236/',
         title: 'title_chef_production',
+        img: elliottGillespie,
       },
       {
         name: 'Félix Lachance',
@@ -74,6 +92,12 @@ export const teams: Team[] = [
         title: 'title_chef_technology',
       },
       {
+        name: 'Xavier Drouin',
+        program: 'engineering_gpa',
+        link: 'https://www.linkedin.com',
+        img: xavierDrouin,
+      },
+      {
         name: 'Justin Fiset',
         program: 'engineering_software',
         link: 'https://www.linkedin.com/in/justinfiset/',
@@ -82,6 +106,7 @@ export const teams: Team[] = [
         name: 'Rémi Cloutier',
         program: 'engineering_software',
         link: 'https://www.linkedin.com/in/remi-cloutier/',
+        img: remiCloutier,
       },
       {
         name: 'Aimé Melançon',
@@ -89,14 +114,19 @@ export const teams: Team[] = [
         link: 'https://www.linkedin.com/in/aime1melancon/',
       },
       {
+        name: 'Simon Boudreau',
+        program: 'engineering_software',
+        link: 'https://www.linkedin.com/in/simon-boudreau1/',
+      },
+      {
+        name: 'Simon Bégin',
+        program: 'engineering_software',
+        link: 'https://www.linkedin.com/in/simon-b%C3%A9gin-7a8813304/',
+      },
+      {
         name: 'Denis Turk',
         program: 'engineering_software',
         link: 'https://www.linkedin.com/in/denisturk/',
-      },
-      {
-        name: 'Vincent Moreau-Benoit',
-        program: 'engineering_electrical',
-        link: ' https://www.linkedin.com/in/moreau-benoit-vincent',
       },
       {
         name: 'Émile Gosselin',
@@ -114,11 +144,6 @@ export const teams: Team[] = [
         link: 'https://www.linkedin.com',
       },
       {
-        name: 'Xavier Drouin',
-        program: 'engineering_gpa',
-        link: 'https://www.linkedin.com',
-      },
-      {
         name: 'Baptiste Rouanet',
         program: 'master',
         link: 'https://www.linkedin.com',
@@ -133,6 +158,12 @@ export const teams: Team[] = [
         program: 'master_aero',
         link: 'https://fr.linkedin.com/in/bastien-lett-b5a1232a9',
       },
+      {
+        name: 'Félix Nadeau',
+        program: 'engineering_gpa',
+        link: 'https://www.linkedin.com',
+        img: felixNadeau,
+      },
     ],
   },
   {
@@ -140,9 +171,22 @@ export const teams: Team[] = [
     description: 'team_communication_description',
     members: [
       {
+        name: 'Erwan Derrien',
+        program: 'engineering_software',
+        link: 'https://www.linkedin.com/in/erwan-derrien-396607210/',
+        title: 'title_chef_communication',
+        img: erwanDerrien,
+      },
+      {
         name: 'Samuel Lipsteinas',
         program: 'engineering_software',
         link: 'https://www.linkedin.com',
+      },
+      {
+        name: 'Victor Désilet',
+        program: 'cut',
+        link: 'https://www.linkedin.com/in/',
+        img: victorDesilet,
       },
     ],
   },

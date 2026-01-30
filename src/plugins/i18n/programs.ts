@@ -39,4 +39,8 @@ export default {
     en: 'Master of Aerospace',
     fr: 'Maitrise en Aérospatial',
   },
+  cut: {
+    en: 'Course in Technology',
+    fr: 'Cheminement universitaire en Technologie',
+  },
 };

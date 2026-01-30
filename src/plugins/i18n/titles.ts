@@ -51,6 +51,10 @@ export default {
     en: 'Production Manager',
     fr: 'Responsable de la Production',
   },
+  title_chef_communication: {
+    en: 'Communication Manager',
+    fr: 'Responsable du département Communication',
+  },
   title_member: {
     en: 'Member',
     fr: 'Membre',
