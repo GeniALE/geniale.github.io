@@ -59,4 +59,8 @@ export default {
     en: 'Member',
     fr: 'Membre',
   },
+  title_sponsor: {
+    en: 'Sponsor',
+    fr: 'Commanditaire',
+  },
 };
