@@ -12,6 +12,7 @@
   ],
   "exclude": ["src/**/__tests__/*", "**/*.min.js"],
   "compilerOptions": {
+    "ignoreDeprecations": "6.0",
     "module": "ESNext",
     "composite": true,
     "resolvePackageJsonExports": false,
