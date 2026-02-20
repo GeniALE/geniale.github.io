@@ -10,7 +10,6 @@
     "eslint:recommended",
     "google",
     "plugin:@typescript-eslint/eslint-recommended",
-    "plugin:markdown/recommended",
     "plugin:import/recommended",
     "plugin:import/typescript",
     "plugin:jsdoc/recommended",
