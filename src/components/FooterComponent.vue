@@ -8,6 +8,7 @@ import {
   faLinkedin,
   faInstagram,
   faFacebook,
+  faDiscord,
 } from '@fortawesome/free-brands-svg-icons';
 const email = 'geniale@ens.etsmtl.ca';
 const hidden = ref(false);
@@ -70,6 +71,13 @@ onMounted(() => {
               aria-label="GitHub"
             >
               <FontAwesomeIcon :icon="faGithub" />
+            </a>
+            <a
+              class="text-xl"
+              href="https://discord.gg/RsDVtWCuXW"
+              aria-label="Discord"
+            >
+              <FontAwesomeIcon :icon="faDiscord" />
             </a>
           </nav>
         </div>
